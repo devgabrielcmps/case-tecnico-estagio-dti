@@ -1,6 +1,7 @@
 # Documentação – Case Técnico dti
-## Sistema de Cadastro de Contatos
-**Autor:** Gabriel Campos Amaral Ribeiro
+### Sistema de Cadastro de Contatos
+**Desenvolvedor:** Gabriel Campos Amaral Ribeiro | Engenharia de Computação – PUC Minas
+
 
 ## Descrição  
 Este projeto é um **CRUD** (Create, Read, Update, Delete) de um sistema de cadastro de contatos, desenvolvido como parte do **case técnico para estágio na DTI Digital**.  
