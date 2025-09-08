@@ -55,7 +55,7 @@ O banco de dados (**database.db**) e a tabela **CONTATOS** são criados automati
 ---
 ## Uso do Sistema  
 
--### 1. Cadastrar Contato  
+### 1. Cadastrar Contato  
 Solicita ao usuário: nome, número de celular e data de nascimento (opcional).  
 
 **Validações:**  
