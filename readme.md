@@ -30,9 +30,32 @@ O sistema permite cadastrar, listar, atualizar e excluir contatos, armazenando o
 
 ---
 
+## Definição das Propriedades do Recurso
+
+| Campo              | Obrigatório | Tipo de Dado | Observações |
+|-------------------|-------------|--------------|-------------|
+| `nome`            | Sim         | Texto        | Deve ser único e não pode ficar em branco |
+| `celular`         | Sim         | Número       | Deve conter exatamente 11 dígitos |
+| `data_nascimento` | Não         | Data         | Pode ser deixado em branco; se informado, deve ser uma data válida |
+
+> ✅ Tipos de dados variados incluídos: string (`nome`), numérico (`celular`), data (`data_nascimento`)
+
+---
+
+## Estrutura do Projeto  
+| Arquivo            | Descrição                                         |  
+|-------------------|---------------------------------------------------|  
+| **public/main.py**   | Menu principal e execução da aplicação           |  
+| **public/database.py** | Funções CRUD e criação do banco de dados (`criaBanco()`) |  
+
+> Observação: Não foi possível colocar o banco de dados dentro de uma pasta separada (`db`) devido à complexidade de acessar o arquivo SQLite corretamente; ele permanece na raiz do projeto.
+
+O banco de dados (**database.db**) e a tabela **CONTATOS** são criados automaticamente na primeira execução.  
+
+---
 ## Uso do Sistema  
 
-### 1. Cadastrar Contato  
+-### 1. Cadastrar Contato  
 Solicita ao usuário: nome, número de celular e data de nascimento (opcional).  
 
 **Validações:**  
@@ -53,18 +76,6 @@ Permite localizar pelo **nome** ou **ID**.
 
 ### 4. Excluir Contato  
 Permite localizar pelo **nome** ou **ID** e excluir o registro.  
-
----
-
-## Estrutura do Projeto  
-| Arquivo            | Descrição                                         |  
-|-------------------|---------------------------------------------------|  
-| **public/main.py**   | Menu principal e execução da aplicação           |  
-| **public/database.py** | Funções CRUD e criação do banco de dados (`criaBanco()`) |  
-
-> Observação: Não foi possível colocar o banco de dados dentro de uma pasta separada (`db`) devido à complexidade de acessar o arquivo SQLite corretamente; ele permanece na raiz do projeto.
-
-O banco de dados (**database.db**) e a tabela **CONTATOS** são criados automaticamente na primeira execução.  
 
 ---
 
