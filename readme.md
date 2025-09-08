@@ -1,5 +1,5 @@
-# Documentação – Case Técnico dti
-### Sistema de Cadastro de Contatos
+# Sistema de Cadastro de Contatos
+### Documentação – Case Técnico dti
 **Desenvolvedor:** Gabriel Campos Amaral Ribeiro | Engenharia de Computação – PUC Minas
 
 
