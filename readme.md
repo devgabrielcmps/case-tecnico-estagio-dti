@@ -1,5 +1,5 @@
 # Documentação – Case Técnico dti
-# Sistema de Cadastro de Contatos
+## Sistema de Cadastro de Contatos
 **Autor:** Gabriel Campos Amaral Ribeiro
 
 ## Descrição  
