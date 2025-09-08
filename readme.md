@@ -71,7 +71,7 @@ O banco de dados (**database.db**) e a tabela **CONTATOS** são criados automati
 ## Observações Técnicas  
 - O projeto é modularizado, separando responsabilidades entre arquivos, facilitando manutenção e expansão futura.  
 - A função `criaBanco()` cria automaticamente o banco e a tabela caso não existam.  
-- O campo **data_nascimento** é opcional e, caso não seja informado, será exibido como “Não informado” ao listar contatos.  
+- O campo **data_nascimento** é opcional.  
 - Todas as entradas do usuário são validadas para garantir a integridade dos dados.  
 - Para desenvolvimento e consulta de informações, foram utilizadas as seguintes fontes:  
   - **DevMedia**  
